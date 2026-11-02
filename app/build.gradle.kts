@@ -71,9 +71,11 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix = ".debug"
+            // -PdebugIdSuffix=.sheet installs a second debug copy next to the usual one.
+            val idSuffix = (project.findProperty("debugIdSuffix") as String?) ?: ".debug"
+            applicationIdSuffix = idSuffix
             versionNameSuffix = "-debug"
-            resValue("string", "dream_settings_component", "dev.pridgey.beddery.debug/dev.pridgey.beddery.MainActivity")
+            resValue("string", "dream_settings_component", "dev.pridgey.beddery$idSuffix/dev.pridgey.beddery.MainActivity")
         }
         release {
             isMinifyEnabled = true

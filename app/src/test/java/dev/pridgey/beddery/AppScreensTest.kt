@@ -55,7 +55,8 @@ class AppScreensTest {
     fun galleryDetailAndSettings() {
         compose.mainClock.autoAdvance = false
         compose.mainClock.advanceTimeBy(2_000)
-        compose.onNodeWithText("Put Beddery on your nightstand").assertExists()
+        // The peeking sheet is always built, so its full-settings button is there from the start.
+        compose.onNodeWithText("All settings").assertExists()
         snapshot("gallery")
 
         compose.onAllNodes(hasScrollToIndexAction()).onFirst().performScrollToKey("flip")

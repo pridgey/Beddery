@@ -518,7 +518,7 @@ fun NotificationSettings(settings: AppSettings, viewModel: MainViewModel) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ShownSection(settings: AppSettings, viewModel: MainViewModel, onOpenGallery: () -> Unit) {
+fun ShownSection(settings: AppSettings, viewModel: MainViewModel, onOpenGallery: () -> Unit) {
     SectionHeader(stringResource(R.string.section_shown))
     SettingsGroup {
         val current = Savers.find(settings.selectedSaverId)

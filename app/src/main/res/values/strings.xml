@@ -8,7 +8,6 @@
     <string name="action_preview">Preview</string>
     <string name="action_preview_full">Preview full screen</string>
     <string name="action_back">Back</string>
-    <string name="action_dismiss">Dismiss</string>
     <string name="action_done">Done</string>
     <string name="action_open">Open</string>
     <string name="action_allow">Allow</string>
@@ -23,7 +22,6 @@
     <string name="action_use_at_night">Use at night</string>
     <string name="action_night_screen">Night screen</string>
     <string name="detail_night_note">Shown instead from %1$s to %2$s. Change the hours under Night.</string>
-    <string name="now_night">At night, %1$s from %2$s</string>
     <string name="shown_night">At night</string>
     <string name="shown_night_none">Same as day. Open a screensaver and tap Use at night.</string>
     <string name="shown_night_some">%1$s · %2$s to %3$s</string>
@@ -39,17 +37,15 @@
     <string name="category_info">Info</string>
     <string name="category_scenes">Scenes</string>
     <string name="category_abstract">Abstract</string>
-    <string name="now_showing">Showing %1$s while charging</string>
-    <string name="now_picked">%1$s is picked. It starts once setup is finished.</string>
     <string name="action_cards_smaller">Smaller cards</string>
     <string name="action_cards_larger">Larger cards</string>
-    <plurals name="now_shuffling">
-        <item quantity="one">Shuffling %1$d screensaver every %2$d min</item>
-        <item quantity="other">Shuffling %1$d screensavers every %2$d min</item>
-    </plurals>
-    <string name="setup_title">Put Beddery on your nightstand</string>
-    <string name="setup_body">Pick a screensaver below, then choose how Beddery starts when your phone is charging.</string>
-    <string name="setup_action">Set up</string>
+    <string name="sheet_ready">Ready for tonight</string>
+    <string name="sheet_next_at">%1$s at %2$s</string>
+    <string name="sheet_night_mode_at">Night mode at %1$s</string>
+    <string name="sheet_night_mode_until">Night mode until %1$s</string>
+    <string name="sheet_shuffle">Shuffle</string>
+    <string name="sheet_almost_ready">Almost ready</string>
+    <string name="sheet_all_settings">All settings</string>
 
     <!-- Screensavers -->
     <string name="saver_minimal">Minimal</string>
@@ -224,7 +220,6 @@
     <string name="badge_refined">Refined</string>
     <string name="saver_refined_name">%1$s (Refined)</string>
     <string name="badge_recommended">Recommended</string>
-    <string name="category_refined">Refined</string>
     <string name="preview_showing_while_charging">Showing while charging</string>
     <string name="preview_swipe_hint">Swipe to browse</string>
     <string name="notification_new">New notification</string>
@@ -234,10 +229,6 @@
     <string name="detail_refined_note">A polished take on %1$s. Open the full-screen preview and swipe to compare them side by side.</string>
     <string name="detail_shows_notifications">Shows notifications</string>
     <string name="detail_preview_tip">Tip: in full-screen preview, swipe left and right to browse.</string>
-    <plurals name="now_shuffling_start">
-        <item quantity="one">Shuffling %1$d screensaver · a new one each time it starts</item>
-        <item quantity="other">Shuffling %1$d screensavers · a new one each time it starts</item>
-    </plurals>
 
     <!-- New screensavers -->
     <string name="saver_classic">Bedside Classic</string>
